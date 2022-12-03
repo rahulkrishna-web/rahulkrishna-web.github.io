@@ -1,0 +1,14 @@
+---
+layout: post
+title: "A Birthday Gift"
+date: 2022-12-03 18:36:12 +0530
+categories: personal
+---
+
+It is my birthday tomorrow. I thought, what gift can I give to myself? Seems like a blog site will be great!
+
+Although I build sites for a living, I rarely paid attention to my own. I never got the time.
+
+So, here it is. Not perfect, but we'll improve it along the way.
+
+See you!
