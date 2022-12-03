@@ -1,7 +1,7 @@
 ---
 
 ---
-
+@import "layout";
 @import "typography";
 @import "appBar";
 @import "timeline";
@@ -14,4 +14,12 @@ body{
 }
 .container {
   padding: 0 1em;
+}
+
+.meta{
+  background: #ffe6002e;
+  padding: 0.25em 1em;
+  p{
+      margin: 0;
+  }
 }

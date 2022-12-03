@@ -10,6 +10,9 @@
     </header>
 
     <main>
+      <div class="meta">
+        <p>{{ page.date | date: "%-d %B %Y · %l %p" }}</p>
+      </div>
       <div class="container">{{ content }}</div>
     </main>
     {% include footer.html %}
