@@ -1,0 +1,12 @@
+.appBar {
+    background: #eee;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    .brand{
+        text-decoration: none;
+        color:#000
+    }
+}

@@ -28,7 +28,8 @@ twitter_username: _RahulKrishna
 github_username: rahulkrishna-web
 
 # Build settings
-theme: minima
+sass:
+  style: compressed
 plugins:
   - jekyll-feed
 # Exclude from processing.
