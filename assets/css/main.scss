@@ -16,6 +16,15 @@ body{
   padding: 0 1em;
 }
 
+.post main {
+  margin: 0 auto;
+  max-width: 80ch;
+}
+
+.post h1{
+  text-align: center;
+}
+
 .meta{
   background: #ffe6002e;
   padding: 0.25em 1em;
