@@ -3,12 +3,12 @@
   {% include head.html %}
   <body>
     {% include appBar.html %}
-
-    <header>
-      <div class="container">
-        <h1>{{ page.title }}</h1>
+    <div class="px-4 py-5 my-5 text-center">
+      <h1 class="display-5 fw-bold">{{ page.title }}</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">{{ page.summary }}</p>
       </div>
-    </header>
+    </div>
     <section>
       <div class="container">
         {{ content }}

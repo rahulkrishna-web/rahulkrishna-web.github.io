@@ -2,7 +2,7 @@
 layout: post
 title: "10 Surprising Ways Shopify Can Boost Your Online Sales"
 date: 2022-12-05 18:00:12 +0530
-categories: shopify, ecommerce
+categories: shopify
 ---
 
 Are you looking for ways to improve your online sales and grow your e-commerce business? Look no further than Shopify, the leading platform for building and managing your online store.

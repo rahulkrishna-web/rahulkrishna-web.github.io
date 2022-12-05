@@ -32,3 +32,34 @@ body{
       margin: 0;
   }
 }
+div#content {
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  grid-template-areas: 
+    "content"
+    "leftSidebar"
+    "rightSidebar";
+}
+
+.leftSidebar {
+  grid-area: leftSidebar;
+}
+.content {
+  grid-area: content;
+}
+.rightSidebar {
+  grid-area: rightSidebar;
+}
+@media (min-width: 768px){
+  .masthead {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 4rem;
+}
+div#content {
+  grid-template-columns: 1.5fr 3fr 1.5fr;
+  gap: 1rem;
+  grid-template-areas: 
+    "leftSidebar content rightSidebar";
+}
+}

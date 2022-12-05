@@ -1,14 +1,14 @@
 ---
 layout: page
 title: About Me
+summary: >-
+  As a web developer with over 8 years of experience, I specialize in creating e-commerce websites using Shopify and WooCommerce. I have a deep understanding of a wide range of programming languages and technologies, including PHP, MySQL, HTML, CSS, JavaScript, React, Node.js, and Next.js.
 permalink: /about/
 ---
 
 Hi There 👋
 
 I am Rahul Krishna.
-
-As a web developer with over 8 years of experience, I specialize in creating e-commerce websites using Shopify and WooCommerce. I have a deep understanding of a wide range of programming languages and technologies, including PHP, MySQL, HTML, CSS, JavaScript, React, Node.js, and Next.js.
 
 My passion for web development began when I was a young teenager and I taught myself how to code. Since then, I have continued to learn and grow, staying up-to-date with the latest technologies and best practices in the industry.
 

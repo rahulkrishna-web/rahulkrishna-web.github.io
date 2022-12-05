@@ -3,9 +3,35 @@
   {% include head.html %}
   <body>
     {% include appBar.html %}
-    <main>
-        {% include blogGrid.html %}
-    </main>
+    <div class="d-grid" id="content">
+      <div class="leftSidebar">
+        <div class="my-5 masthead mx-3 mx-md-0">
+          <ul class="nav flex-column">
+            {% for category in site.categories %}
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="{{ category.url }}"
+                >{{ category[0] }}</a
+              >
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="content">{% include blogGrid.html %}</div>
+      <div class="rightSidebar">
+        <div class="my-5 masthead mx-3 mx-md-0">
+          {% for post in paginator.posts %}
+
+          <div class="post">
+            <h5 class="card-title">{{ post.title }}</h5>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
     {% include footer.html %}
   </body>
 </html>
